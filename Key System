@@ -57,7 +57,6 @@ Tab:AddButton({
       		if _G.KeyInput == _G.Key then
             MakeScriptHub()
             CorrectKeyNotification()
-			OrionLib:Init()
             OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bskeoo/atlamainhub/main/atlamainscript"))()
             else
                 IncorrectKeyNotification()
