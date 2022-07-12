@@ -61,4 +61,6 @@ Tab:AddButton({
             OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Bskeoo/atlamainhub/main/atlamainscript"))()
             else
                 IncorrectKeyNotification()
-          
+            end
+  	end    
+})
